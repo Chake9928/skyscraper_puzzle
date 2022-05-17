@@ -1,14 +1,4 @@
-extern void	ft_putstr(char *str);
-extern int	arg_chk(int ac, char **av);
-extern int	*get_value(char *str, int n);
-extern void	output_answer(int **matrix, int dim);
-extern int	calculate(int **matrix, int *value, int dim, int id);
-extern int	chk_duplication(int **matrix, int dim, int id, int bld_height);
-extern int	chk_visible_bld_count(int **matrix, int dim, int id, int *value);
-extern int	**allocate_matrix_mem(int dim);
-extern int	*allocate_base_matrix_mem(int dim);
-extern void	connect_address(int **matrix, int *base_matrix, int dim);
-extern void	freeing(int *value, int *base_matrix, int **matrix);
+#include "declaration.h"
 
 int	main(int argc, char **argv)
 {
