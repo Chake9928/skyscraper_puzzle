@@ -1,5 +1,4 @@
-extern void	ft_putnbr(int nb);
-extern void	ft_putchar(char c);
+#include "declaration.h"
 
 void	output_answer(int **matrix, int dim)
 {
