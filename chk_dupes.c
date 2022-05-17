@@ -1,3 +1,5 @@
+#include "declaration.h"
+
 int	chk_duplication(int **matrix, int dim, int id, int bld_height)
 {
 	int	i;
