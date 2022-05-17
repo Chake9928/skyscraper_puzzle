@@ -1,5 +1,4 @@
-extern int	chk_duplication(int **matrix, int dim, int id, int bld_height);
-extern int	chk_visible_bld_count(int **matrix, int dim, int id, int *value);
+#include "declaration.h"
 
 int	calculate(int **matrix, int *value, int dim, int id)
 {
