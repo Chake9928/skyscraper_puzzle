@@ -1,7 +1,4 @@
-#include <stdlib.h>
-
-extern int	ft_atoi(char *str);
-extern int	ft_strlen(char *str);
+#include "declaration.h"
 
 int	arg_chk(int argc, char **argv)
 {
