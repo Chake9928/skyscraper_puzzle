@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "declaration.h"
 
 extern void	ft_putstr(char *str);
 
