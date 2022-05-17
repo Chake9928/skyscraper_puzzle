@@ -1,3 +1,5 @@
+#include "declaration.h"
+
 int	chk_col_up(int **matrix, int dim, int id, int *value)
 {
 	int	i;
