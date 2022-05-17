@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   calculate.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: takokamo <takokamo@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/30 18:01:39 by tmatsuur          #+#    #+#             */
-/*   Updated: 2022/05/01 23:14:53 by tmatsuur         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 extern int	chk_duplication(int **matrix, int dim, int id, int bld_height);
 extern int	chk_visible_bld_count(int **matrix, int dim, int id, int *value);
 
