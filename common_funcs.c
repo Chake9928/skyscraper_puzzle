@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "declaration.h"
 
 void	ft_putchar(char c)
 {
