@@ -1,7 +1,5 @@
 #include "declaration.h"
 
-extern void	ft_putstr(char *str);
-
 int	**allocate_matrix_mem(int dim)
 {
 	int	**matrix;
